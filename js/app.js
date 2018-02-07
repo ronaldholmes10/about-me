@@ -3,6 +3,7 @@
 var userName = prompt ('Hi! What is your nom de guerre? What is that you say?  That is intellespeak for your name.');
 
 alert ('Hi ' + userName + ' nice to meet you. I am going to ask you some weird questions about me.  It is a simple guessing game. Just, please promise not to think I am weird.');
+console.log ('Reader was asked to input their name. Reader added username.' + userName);
 
 
 var question1 = prompt ('Do you think I have seen a ghost?').toLowerCase().trim();
@@ -13,6 +14,7 @@ if (question1 === 'yes' || question1 === 'y'){
 }else{
   alert ('I do not recognize your answer.  Try typing something else');
 }
+console.log('User was asked a yes or no question.' + question1);
 
 var question2 = prompt ('Do you think I like dogs or cats more?').toLowerCase().trim();
 if (question2 === 'cats') {
@@ -22,6 +24,7 @@ if (question2 === 'cats') {
 else {
   alert ('Please try again.');
 }
+console.log('User was asked a question about dogs and cats.' + question2);
 
 var question3 = prompt ('Do you think I would eat monkey brains?').toLowerCase().trim();
 if (question3 === 'yes'|| question3 === 'y'){
@@ -31,6 +34,7 @@ if (question3 === 'yes'|| question3 === 'y'){
 }else{
   alert('Please try again crazy person!');
 }
+console.log('user was asked a yes or no question' + question3);
 
 var question4 = prompt ('Do you think I am weird yet?').toLocaleLowerCase().trim();
 if (question4 ==='yes' || question4 === 'y'){
@@ -40,6 +44,7 @@ if (question4 ==='yes' || question4 === 'y'){
 } else {
   alert ('I do not recognize your answer. Please enter something else.');
 }
+console.log('User was asked a yes or no queston' + question4);
 
 var question5 = prompt ('Last question, do you think I would try to drink blood if I were dying of thirst?').toLocaleLowerCase().trim();
 if (question5 === 'yes' || question5 === 'y'){
@@ -49,3 +54,4 @@ if (question5 === 'yes' || question5 === 'y'){
 } else {
   alert ('I did not understand your answer. Please enter another one');
 }
+console.log('User was asked a yes or no question' + question5);
