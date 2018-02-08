@@ -1,8 +1,11 @@
 'use strict';
 
+function game1 () {
  var userName = prompt ('Hi! What is your nom de guerre? What is that you say?  That is intellespeak for your name.');
  alert ('Hi ' + userName + ' nice to meet you. I am going to ask you some weird questions about me.  It is a simple guessing game. Just, please promise not to think I am weird.');
  console.log ('Reader was asked to input their name. Reader added username.' + userName);
+}
+game1
 
 
  var question1 = prompt ('Do you think I have seen a ghost?').toLowerCase().trim();
