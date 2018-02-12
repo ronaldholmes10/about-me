@@ -1,4 +1,4 @@
-'use strict';
+/*'use strict';
 
 var userName = prompt ('Hi! What is your nom de guerre? What is that you say?  That is intellespeak for your name.');
 alert ('Hi ' + userName + ' nice to meet you. I am going to ask you some weird questions about me.  It is a simple guessing game. Just, please promise not to think I am weird.');
@@ -38,7 +38,7 @@ function game3() {
   console.log('user was asked if I would eat monkey brains. ' + question3);
   if (question3 === 'yes'|| question3 === 'y'){
     alert('Yuck, I would never do that ' + userName + ' unless I was stranded on an island.');
-  } else if (question3 === 'no' || question3==='n'){
+  } else if (question3 === 'no' || question3 ==='n'){
     alert ('I am glad you got that one right!');
     tally ++;
   } else {
